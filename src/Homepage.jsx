@@ -13,7 +13,6 @@ const Homepage = () => {
   const [Signin_UserState, setSignin_UserState] = useState(false);
 
   login ? document.title = "Login | Page" : document.title = "Signup | Page"
-
   const handleLogin = () => {
     setLogin(!login);
     setError("");
